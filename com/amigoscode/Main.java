@@ -68,6 +68,22 @@ public class Main{
         System.out.println(naming.length());
         System.out.println(naming.indexOf("boy"));
 
+        String firstName = "John";
+        String secondName = "Kuti";
+        System.out.println(firstName + " " + secondName);
+        System.out.println(firstName.concat( " " +secondName));
+
+        int maths = 40;
+        int numerals = 50;
+        System.out.println(Math.max(maths, numerals));
+        System.out.println(Math.sqrt(maths));
+        System.out.println(Math.abs(maths));
+        System.out.println(Math.random() / maths);
+
+
+
+
+
 
 
 
