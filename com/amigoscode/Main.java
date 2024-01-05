@@ -44,6 +44,8 @@ public class Main{
         //char
         char label = 'l';
         System.out.println(label);
+        char labeler = 'l', labels ='k', labelled = 'p';
+        System.out.println("" + labeler + labels + labelled);
 
     }
 }
