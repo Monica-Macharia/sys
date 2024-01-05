@@ -7,10 +7,13 @@ public class Main{
     public static void main(String[] args){
         System.out.println("hello world");
 
+        /* This executes i*/
         for (int i = 1; i <= 5; i++){
             System.out.println("i is " + i);
             System.out.println( "HELLO" + i + i);
         }
+
+        //This executes j
         for (int j = 10; j >= 1; j--){
             System.out.println(j * j);
 
