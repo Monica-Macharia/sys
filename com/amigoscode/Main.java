@@ -47,6 +47,25 @@ public class Main{
         char labeler = 'l', labels ='k', labelled = 'p';
         System.out.println("" + labeler + labels + labelled);
 
+        //widening casting
+        //from int to a float (9 to 9.0)
+        int number = 9;
+        float numberFloat = number;
+        System.out.println(number);
+        System.out.println(numberFloat);
+
+        //Narrow Casting
+        //from a float to an int (9.0 to 9)
+        float door = 7.89f;
+        double doors = Math.ceil(door);
+        int doorNumber = (int) doors;
+        System.out.println(doors);
+        System.out.println(doorNumber);
+
+
+
+
+
     }
 }
 
