@@ -18,6 +18,33 @@ public class Main{
             System.out.println(j * j);
 
         }
+
+        //String variable
+        String name = "Mom";
+        System.out.println(name);
+
+        //integer variable
+        int time = 10;
+        time = 50;
+        System.out.println(time + "hrs");
+
+        //decimals or floats
+        float rounding = 56.7f;
+        System.out.println(rounding);
+
+        //boolean
+        boolean question;
+        question = true;
+        System.out.println(question);
+
+        //byte
+        byte num = 45;
+        System.out.println(num);
+
+        //char
+        char label = 'l';
+        System.out.println(label);
+
     }
 }
 
