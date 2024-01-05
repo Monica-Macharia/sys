@@ -83,12 +83,18 @@ public class Main{
         //if else statement
         int age = 26;
         int votingAge = 18;
-        if (age >= votingAge){
+
+        if (age > votingAge){
             System.out.println("old enough to vote");
-        }else{
+        }else if(age == votingAge){
+            System.out.println("just old enough to vote");
+        }
+        else{
             System.out.println("not old enough to vote");
         }
 
+        //ternary
+        System.out.println((age > votingAge) ? "vote" : "don\'t vote");
 
 
 
