@@ -80,6 +80,15 @@ public class Main{
         System.out.println(Math.abs(maths));
         System.out.println(Math.random() / maths);
 
+        //if else statement
+        int age = 26;
+        int votingAge = 18;
+        if (age >= votingAge){
+            System.out.println("old enough to vote");
+        }else{
+            System.out.println("not old enough to vote");
+        }
+
 
 
 
