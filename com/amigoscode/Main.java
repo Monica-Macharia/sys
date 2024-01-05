@@ -9,9 +9,11 @@ public class Main{
 
         for (int i = 1; i <= 5; i++){
             System.out.println("i is " + i);
+            System.out.println( "HELLO" + i + i);
         }
         for (int j = 10; j >= 1; j--){
-            System.out.println("j is" + j);
+            System.out.println(j * j);
+
         }
     }
 }
