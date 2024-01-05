@@ -62,6 +62,12 @@ public class Main{
         System.out.println(doors);
         System.out.println(doorNumber);
 
+        //String methods
+        String naming = "He is a boy";
+        System.out.println(naming.toUpperCase());
+        System.out.println(naming.length());
+        System.out.println(naming.indexOf("boy"));
+
 
 
 
