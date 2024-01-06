@@ -96,6 +96,19 @@ public class Main{
         //ternary
         System.out.println((age > votingAge) ? "vote" : "don\'t vote");
 
+        //Switch
+        int day = 1;
+        switch(day){
+            case 1:
+            System.out.println("its monday");
+            break;
+            case 2:
+                System.out.println("its tuesday");
+                break;
+            default:
+                System.out.println("no idea when its today");
+        }
+
 
 
 
