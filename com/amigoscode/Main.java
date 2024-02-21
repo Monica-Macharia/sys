@@ -45,6 +45,13 @@ public class Main{
         int[][] unis = {{4,5,6}, {5,7,7}};
         System.out.println(Arrays.deepToString(unis));
 
+        //Constants in Java are called final :()
+        //The variable names are capitalized
+        //final datatype VARIABLENAME = value;
+        final float PI = 3.14f;
+
+
+
 
 
 
