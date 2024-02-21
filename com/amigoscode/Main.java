@@ -50,6 +50,23 @@ public class Main{
         //final datatype VARIABLENAME = value;
         final float PI = 3.14f;
 
+        //casting
+        //implicit or automatic casting
+        //from a small number to a bigger number
+        int rental = 1;
+        double rentals = rental;
+        System.out.println(rental);
+        System.out.println(rentals);
+
+        //explicit or manual
+        //from a big number to a small number
+        //change the type the initial data type to a compatible data type
+        double client = 4.900090909090909090909D;
+        float clients = (float) client;
+        System.out.println(client);
+        System.out.println(clients);
+
+
 
 
 
