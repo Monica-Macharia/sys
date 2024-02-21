@@ -66,6 +66,15 @@ public class Main{
         System.out.println(client);
         System.out.println(clients);
 
+        //changing a String into an it or float
+        String customer ="6";
+        Integer.parseInt(customer);
+        System.out.println(customer);
+
+        String roads = "6.56";
+        Float.parseFloat(roads);
+        System.out.println(roads);
+
 
 
 
