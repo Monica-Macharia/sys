@@ -31,6 +31,20 @@ public class Main{
         float[] decimals = { 7.8f, 5.8f, 9.00f};
         System.out.println(Arrays.toString(decimals));
 
+        //Multideminsional arrays
+        //eg. [[2,3,4],[45,5,6]];
+        int[][] students = new int[2][3];
+        students[0][0] = 4;
+        students[0][1] = 5;
+        students[0][2] = 6;
+        students[1][0] = 7;
+        students[1][1] = 8;
+        students[1][2] = 9;
+        System.out.println(Arrays.deepToString(students));
+
+        int[][] unis = {{4,5,6}, {5,7,7}};
+        System.out.println(Arrays.deepToString(unis));
+
 
 
 
