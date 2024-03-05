@@ -76,6 +76,8 @@ public class Main{
         System.out.println(roads);
 
         //Math class
+        int tours = (int) (Math.random() * 100);
+        System.out.println(tours);
 
 
 
