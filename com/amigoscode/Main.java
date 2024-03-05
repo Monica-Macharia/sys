@@ -3,6 +3,7 @@ package com.amigoscode;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -78,6 +79,10 @@ public class Main{
         //Math class
         int tours = (int) (Math.random() * 100);
         System.out.println(tours);
+
+        //formatting numbers using NumberFormat
+      String sale = NumberFormat.getCurrencyInstance().format(-98.00);
+        System.out.println(sale);
 
 
 
