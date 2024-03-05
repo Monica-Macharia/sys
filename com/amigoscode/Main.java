@@ -6,6 +6,7 @@ package com.amigoscode;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
@@ -83,6 +84,11 @@ public class Main{
         //formatting numbers using NumberFormat
       String sale = NumberFormat.getCurrencyInstance().format(-98.00);
         System.out.println(sale);
+
+        //Scanner: Reading the Console
+        Scanner inputs = new Scanner(System.in);
+        String date = inputs.nextLine();
+        System.out.println( "Today is: " + date);
 
 
 
