@@ -8,6 +8,8 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
+import static java.lang.Math.pow;
+
 public class Main{
     public static void main(String[] args){
 
@@ -86,9 +88,35 @@ public class Main{
         System.out.println(sale);
 
         //Scanner: Reading the Console
-        Scanner inputs = new Scanner(System.in);
-        String date = inputs.nextLine();
-        System.out.println( "Today is: " + date);
+//        Scanner inputs = new Scanner(System.in);
+//        String date = inputs.nextLine();
+////        System.out.println( "Today is: " + date);
+
+
+        //calculatig Mortage Exercise
+
+        int principalAmount = 200000;
+        float monthlyInterestRate = 70.0f / 12;
+        int monthlyRate = (int) monthlyInterestRate;
+        System.out.println(monthlyRate);
+        int months = 60;
+
+            //monthly interest
+           int interest = (monthlyRate * ((int) Math.pow(monthlyRate, 2)));
+        System.out.println(interest);
+           int interestTotal = (int) Math.pow(interest, 30);
+        System.out.println(interestTotal);
+
+           //denominator
+            int division = (int) Math.pow((1 + monthlyRate),30);
+        System.out.println(division);
+
+            //division
+            int total = (interestTotal / division) * principalAmount;
+        System.out.println("hello");
+            System.out.println(total);
+        System.out.println("hello");
+
 
 
 
