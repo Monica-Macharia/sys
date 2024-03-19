@@ -92,8 +92,10 @@ public class Main{
 //        String date = inputs.nextLine();
 ////        System.out.println( "Today is: " + date);
 
-
-        //calculatig Mortage Exercise
+        //scanner
+//        Scanner trial = new Scanner(System.in);
+//        String age = trial.nextLine();
+//        System.out.println(age + "Hurray");
 
         int principalAmount = 200000;
         float monthlyInterestRate = 70.0f / 12;
@@ -117,6 +119,20 @@ public class Main{
             System.out.println(total);
         System.out.println("hello");
 
+        // Fizz Buzz exercise
+        //If Statement
+        Scanner inputs = new Scanner(System.in);
+        int rem= inputs.nextInt();
+        if(rem % 5 == 0 && rem % 3 == 0 ){
+            System.out.println("FizzBuzz");
+        }
+        else if(rem % 5 == 0){
+            System.out.println("Fizz");
+        }else if(rem % 3 == 0){
+            System.out.println("Buzz");
+        } else{
+            System.out.println(rem);
+        }
 
 
 
