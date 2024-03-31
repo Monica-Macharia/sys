@@ -121,18 +121,27 @@ public class Main{
 
         // Fizz Buzz exercise
         //If Statement
-        Scanner inputs = new Scanner(System.in);
-        int rem= inputs.nextInt();
-        if(rem % 5 == 0 && rem % 3 == 0 ){
-            System.out.println("FizzBuzz");
-        }
-        else if(rem % 5 == 0){
-            System.out.println("Fizz");
-        }else if(rem % 3 == 0){
-            System.out.println("Buzz");
-        } else{
-            System.out.println(rem);
-        }
+//        Scanner inputs = new Scanner(System.in);
+//        int rem= inputs.nextInt();
+//        if(rem % 5 == 0 && rem % 3 == 0 ){
+//            System.out.println("FizzBuzz");
+//        }
+//        else if(rem % 5 == 0){
+//            System.out.println("Fizz");
+//        }else if(rem % 3 == 0){
+//            System.out.println("Buzz");
+//        } else{
+//            System.out.println(rem);
+//        }
+
+        int hotels = 45;
+        String booked = "I booked hotel" + hotels;
+        System.out.println(booked);
+
+        int[] sleep = {1, 2, 3, 4};
+        System.out.println(Arrays.toString(sleep));
+
+
 
 
 
